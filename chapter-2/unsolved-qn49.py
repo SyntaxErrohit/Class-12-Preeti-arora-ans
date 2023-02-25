@@ -1,6 +1,20 @@
 def LeftShift(lst, x):
-    leftlst = lst[x:]
-    rightlst = lst[:x]
-    return leftlst + rightlst
+    return lst[x:] + lst[:x]
 
-print(LeftShift([20, 40, 60, 30, 10, 50, 90, 80, 45, 29], 3))
+n = int(input("Enter number of elements in list: "))
+l = []
+for i in range(n):
+    l.append(int(input()))
+
+x = int(input("Enter x:"))
+lnew = LeftShift(l, x)
+
+print("Input list:")
+for i in l:
+    print(i, end=" ")
+print()
+
+print("Output list:")
+for i in lnew:
+    print(i, end=" ")
+print()
