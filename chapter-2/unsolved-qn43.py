@@ -5,7 +5,7 @@ def displayPrime(N):
             if num%i == 0:
                 flag = False
                 break
-        if flag:
+        if flag == True:
             print(num)
 
 N = int(input("Enter N: "))
