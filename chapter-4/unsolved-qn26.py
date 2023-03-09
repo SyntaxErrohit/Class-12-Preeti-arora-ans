@@ -5,12 +5,15 @@ while True:
     if text == "END":
         break
     else:
-        t.write(text)
+        t.write(text+"\n")
 
 t.close()
 
 t = open("book.txt", "r")
 data = t.readlines()
+
 for i in data:
     if i[0].isupper():
-        print(i)
+        print(i, end="")
+
+t.close()
