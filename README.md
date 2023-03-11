@@ -1,4 +1,4 @@
-# Class-12-Preeti-arora-answers
+# Class 12 Preeti Arora answers
 Answers for some unsolved and solved questions in class 12 preeti arora textbook
 
 Being the most geeky cs student in my class I have decided to take the responsibility to solve the unsolved questions that is there in the "Computer Science With Python by Preeti Arora"
