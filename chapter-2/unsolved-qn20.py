@@ -1,8 +1,8 @@
 def find_multiples(n, t=1):
-    print(t*n)
+    print(t*n, end=" ")
     if t == 4:
-        return 1
+        print()
     else:
-        return find_multiples(n, t+1)
+        find_multiples(n, t+1)
 
 find_multiples(6)
