@@ -5,4 +5,4 @@ Being the most geeky cs student in my class I have decided to take the responsib
 
 Whenever someone asks me for the code for a particular question I would just send a link of this repo :) 
 
-![](https://tenor.com/view/555-high-iq-555iq-iq-think-gif-19108239)
+![](https://tenor.com/view/555-high-iq-555iq-iq-think-gif-19108239.gif)
