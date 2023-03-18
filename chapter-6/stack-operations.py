@@ -4,8 +4,8 @@ size = 0
 def push():
     item = input("Enter item: ")
     stack.append(item)
-    size += 1
-    return size
+    print("Item pushed")
+    return size + 1
 
 def peek():
     if size == 0:
@@ -25,9 +25,8 @@ def pop():
         print("Underflow, Stack is empty")
     else:
         item = stack.pop()
-        size -= 1
         print("Item popped:", item)
-        return size
+        return size - 1
 
 def display():
     print("The stack is:")
