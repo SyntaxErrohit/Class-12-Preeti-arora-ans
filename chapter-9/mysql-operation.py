@@ -35,6 +35,18 @@ while c == "y":
     print("4. Display record")
     print("5. Exit")
     ch = int(input("Enter choice: "))
-    
+    if ch == 1:
+        adddata()
+    elif ch == 2:
+        updatedata()
+    elif ch == 3:
+        deldata()
+    elif ch == 4:
+        fetchdata()
+    elif ch == 5:
+        c = "n"
+    else:
+        print("Wrong input. Try again")
+
     
     
