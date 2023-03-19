@@ -17,5 +17,15 @@ def adddata():
     db.commit()
     print("Records added")
 
+def updatedata():
+    cur.execute("update student set stipend=5000 where name='Ritu'")
+    print("Record updated")
+    db.commit()
+
+def deldata():
+    cur.execute("delete from student where name='Ritu'")
+    print("Record deleted")
+    db.commit()
+
 
     
