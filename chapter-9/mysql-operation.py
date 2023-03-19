@@ -27,5 +27,14 @@ def deldata():
     print("Record deleted")
     db.commit()
 
-
+c = "y"
+while c == "y":
+    print("1. Add record")
+    print("2. Update record")
+    print("3. Delete record")
+    print("4. Display record")
+    print("5. Exit")
+    ch = int(input("Enter choice: "))
+    
+    
     
